@@ -1,0 +1,485 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Untitled Document</title>
+    <style>
+     /*Font family*/
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@page{
+ body, HTML{
+ font-family:Lato;
+ color:#212721;
+ font-size:12px;
+ background:#fff;
+ padding:0%;
+ margin:0%;
+ }
+ .header {
+     position: fixed;
+     left: 0;
+     right: 0;
+     top: 0;
+     width: 98%;
+     padding: 1%;
+
+ }
+
+ .footer {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 98%;
+     padding: 1%;
+ }
+
+ img{max-width:100%; height:auto }
+ }
+ </style>
+</head>
+<body>
+<!--first page-->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width:1278px; background:#fff;font-family:Lato; padding:20px;" align="center">
+    <tr>
+        <td>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" height="1000vw">
+                <tr>
+                    <td valign="top">
+                        <!--Header section-->
+                        <div class="header" >
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#D3F7FB" style="background:#D3F7FB;">
+
+                                <tr>
+                                    <td style="border-bottom:10px solid #6FC7AC; padding-top:10px; padding-bottom:10px; padding-left:15px;" width="40%" valign="top">
+                                        <!--LAB DETAILS -->
+                                        <table width="100%" height="150" border="0" cellspacing="0" cellpadding="0" style="border-right:1px #36B6B4 solid;">
+                                            <tr>
+                                                <td valign="top">
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="left" style="padding-left:10px; padding-right:10px;">
+                                                        <tr>
+                                                            <td colspan="2" style="font-size:12px; font-family:Poppins"><strong>{{SecondReportHeading}}</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="2">&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left">
+                                                                <div style="width: 70px;">
+                                                                    <img src= "{{LabLogo}}" width="" height="150" alt="" /></div>
+                                                            </td>
+                                                            <td align="left" style="font-size:14px;font-weight:bold; width: 45%; padding-left: 5px; padding-right: 20px;">
+                                                                {{LabName}}
+                                                            </td>
+                                                        </tr>
+
+                                                    </table>
+
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                        <!--LAB DETAILS -->
+                                    </td>
+
+                                    <td style="border-bottom:10px solid #0175B2; padding-top:10px; padding-bottom:10px; padding-left:10px; padding-right:10px;" width="60%" valign="top">
+                                        <!-- REPORT DETAILS -->
+                                        <table width="100%" height="150" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td valign="top" style="padding-left:15px;">
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="left">
+                                                        <tr>
+                                                            <td colspan="3" style="font-size:12px; font-family:Poppins"><strong>{{ThirdReportHeading}}</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="3">&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <!--<td align="left">
+                                                                <div style="font-size:12px;">Received Date</div>
+                                                                <div style="font-size:12px;font-weight:bold">{{ReceivedDate}}</div>
+                                                            </td>-->
+                                                            <td align="left">
+                                                                <div style="font-size:12px;">Reported Date</div>
+                                                                <div style="font-size:12px;font-weight:bold">{{ReportedDate}}</div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="3">&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left">
+                                                                <div style="font-size:12px;">Accession ID</div>
+                                                                <div style="font-size:12px;font-weight:bold">{{AccessionId}}</div>
+                                                            </td>
+                                                            <td align="left">
+                                                                <div style="font-size:12px;">Result ID</div>
+                                                                <div style="font-size:12px;font-weight:bold">{{ResultId}}</div>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <!-- End REPORT DETAILS -->
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </div>
+
+                        <!--End Header section-->
+                    </td>
+                </tr>
+                <tr style="background: #fff;">
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <!-- middle section-->
+                        <table width="97%" border="0" cellspacing="0" cellpadding="0" align="center" style="position:relative; top:0px;">
+                            <tr>
+                                <td height="15"></td>
+                            </tr>
+                            <tr>
+                                <td><h2 style="font-size:15px; color:#48484A"><strong>{{FirstReportHeading}}</strong></h2></td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                            </tr>
+
+                            <tr>
+                                <td align="left" valign="top" style="width: 25%;">
+                                    <div style="font-size:12px;">Name</div>
+                                    <div style="font-size:12px;font-weight:bold;">{{PatientName}}</div>
+                                </td>
+                                  <td valign="top" style="width: 25%;">
+                                    <div style="font-size:12px;">Physician</div>
+                                    <div style="font-size:12px;font-weight:bold;">{{PhysicianName}}</div>
+                                </td>
+                                <td valign="top" style="width: 25%;">
+                                    <div style="font-size:12px;">MRN</div>
+                                    <div style="font-size:12px;font-weight:bold;">{{MRN}}</div>
+                                </td>
+                                <td align="left" valign="top" style="width: 25%;">
+                                    <div style="font-size:12px;">Phone</div>
+                                    <div style="font-size:12px;font-weight:bold">{{PhoneNumber}}</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td colspan="5"><hr /></td>
+                            </tr>
+                            <tr>
+                                <td colspan="5"><h2 style="font-size:15px; color:#48484A"><strong>{{FourthReportHeading}}</strong></h2></td>
+                            </tr>
+                            <tr>
+                                <td colspan="5" style="font-size:14px; color:#48484A; line-height:24px">{{ClinicalHistory}}</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td colspan="5"><hr /></td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td colspan="5"><h2 style="font-size:15px; color:#48484A"><strong>{{FifthReportHeading}}</strong></h2></td>
+                            </tr>
+                            <tr>
+                                <td colspan="5" style="font-size:14px; color:#48484A; line-height:24px">{{FinalDiagnosis}}</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td colspan="5"><hr /></td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="5"><h2 style="font-size:15px; color:#48484A; padding:0px; margin:0px"><strong>{{SixthReportHeading}}</strong></h2></td>
+                            </tr>
+                            <tr>
+                                <td style="font-size:14px; color:#48484A; line-height:20px">
+                                    <div><strong>{{PathologistName}} </strong></div>
+                                    <div><strong>{{PathologistDegree}}</strong></div>
+                                    <div><strong>{{PathologistRole}}</strong></div>
+                                    <div>Reported:</div><div>{{ReportedDate}}</div>
+                                    <!--<div>Reviewed: {{ReviewedDate}}</div>-->
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- End middle section-->
+                    </td>
+                </tr>
+                <tr style="background: #fff;">
+                    <td>&nbsp;</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <!--footer-->
+                        <div class="footer">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color:#ffffff;">
+
+                                <tr>
+                                    <td bgcolor="#D3F7FB" width="65%">
+                                        <table width="95%" border="0" cellspacing="0" cellpadding="15" align="center">
+                                            <tr>
+                                                <td width="50%">
+                                                    <div style="font-size:12px; color:#48484A; padding-bottom:5px;">Lab Address</div>
+                                                    <div style="font-size:12px; font-weight:bold; line-height:22px; color:#48484A">{{LabAddress}}</div>
+                                                </td>
+                                                <td width="50%">
+                                                    <div style="font-size:12px; color:#48484A; padding-bottom:5px;">Phone Number</div>
+                                                    <div style="font-size:12px; font-weight:bold; line-height:22px; color:#48484A">{{LabPhoneNumber}}</div>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+
+                                    </td>
+                                    <td width="35%" align="center" style="background-color:#ffffff; margin-bottom:20px;">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                            <tr align="center">
+                                                <td style="font-size:10px;"><strong>Powered by</strong></td>
+                                            </tr>
+                                            <tr align="center">
+                                                <td><img src= "{{PathForceLogo}}" alt="" width="200" height="45" /></td>
+                                            </tr>
+                                        </table>
+
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </div>
+                        <!--footer-->
+                    </td>
+                </tr>
+            </table>
+
+        </td>
+    </tr>
+</table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color:#ffffff;">
+    <tr style=" background-color:#ffffff;">
+        <td height="25">&nbsp;</td>
+    </tr>
+</table>
+
+
+<!--Second page-->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width:1278px; background:#fff;font-family:Lato; padding:20px;" align="center">
+    <tbody>
+    <tr>
+        <td>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                <tr>
+                    <td valign="top">
+                    <!--Header section-->
+                                    <div class="header">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#D3F7FB" style="background:#D3F7FB;">
+
+                                            <tr>
+                                                <td style="border-bottom:10px solid #6FC7AC; padding-top:10px; padding-bottom:10px; padding-left:15px;" width="40%" valign="top">
+                                                    <!--LAB DETAILS -->
+                                                    <table width="100%" height="150" border="0" cellspacing="0" cellpadding="0" style="border-right:1px #36B6B4 solid;">
+                                                        <tr>
+                                                            <td valign="top">
+                                                                <table width="100%" border="0" cellspacing="0" cellpadding="0" align="left" style="padding-left:10px; padding-right:10px;">
+                                                                    <tr>
+                                                                        <td colspan="2" style="font-size:12px; font-family:Poppins"><strong>{{SecondReportHeading}}</strong></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td colspan="2">&nbsp;</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td align="left" style="width: 35%;">
+                                                                            <div style="width: 70px;">
+                                                                                <img src= "{{LabLogo}}" width="" height="150" alt="" /></div>
+                                                                        </td>
+                                                                        <td align="left" style="font-size:14px;font-weight:bold; width: 45%; padding-left: 5px; padding-right: 20px;">
+                                                                            {{LabName}}
+                                                                        </td>
+                                                                    </tr>
+
+                                                                </table>
+
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+
+                                                    <!--LAB DETAILS -->
+                                                </td>
+
+                                                <td style="border-bottom:10px solid #0175B2; padding-top:10px; padding-bottom:10px; padding-left:10px; padding-right:10px;" width="60%" valign="top">
+                                                    <!-- REPORT DETAILS -->
+                                                    <table width="100%" height="150" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td valign="top" style="padding-left:15px;">
+                                                                <table width="100%" border="0" cellspacing="0" cellpadding="0" align="left">
+                                                                    <tr>
+                                                                        <td colspan="3" style="font-size:12px; font-family:Poppins"><strong>{{ThirdReportHeading}}</strong></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td colspan="3">&nbsp;</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <!--<td align="left">
+                                                                            <div style="font-size:12px;">Received Date</div>
+                                                                            <div style="font-size:12px;font-weight:bold">{{ReceivedDate}}</div>
+                                                                        </td>-->
+                                                                        <td align="left">
+                                                                            <div style="font-size:12px;">Reported Date</div>
+                                                                            <div style="font-size:12px;font-weight:bold">{{ReportedDate}}</div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td colspan="3">&nbsp;</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td align="left">
+                                                                            <div style="font-size:12px;">Accession ID</div>
+                                                                            <div style="font-size:12px;font-weight:bold">{{AccessionId}}</div>
+                                                                        </td>
+                                                                        <td align="left">
+                                                                            <div style="font-size:12px;">Result ID</div>
+                                                                            <div style="font-size:12px;font-weight:bold">{{ResultId}}</div>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                    <!-- End REPORT DETAILS -->
+                                                </td>
+                                            </tr>
+
+                                        </table>
+                                    </div>
+                        <!--End Header section-->
+                    </td>
+                </tr>
+                <tr style="background-color:#fff;">
+                   <!-- <td style="background: #fff;">&nbsp;</td>-->
+                </tr>
+                <tr style="background-color:#fff;">
+                    <td>
+                        <!-- middle section-->
+                        <div style="position:absolute; top:1270px; padding-left:15px;">
+                           <!-- <table width="95%" border="0" cellspacing="0" cellpadding="0" align="center">-->
+                                <tr>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size:16px; margin-bottom:10px;"><strong>{{SeventhReportHeading}}</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="5">
+                                            <tr>
+                                                {{imageTDs1}}
+                                                <!--<td  align="center" valign="middle"><img src="{{FirstSelectedImage}}" width="350" height="150" alt="" /></td>
+                                                <td  align="center" valign="middle"><img src="{{SecondSelectedImage}}" width="350" height="150" alt="" /></td>
+                                                <td  align="center" valign="middle"><img src="{{ThirdSelectedImage}}" width="350" height="150" alt="" /></td>-->
+                                            </tr>
+                                            <tr>
+                                                {{imageTDs2}}
+                                                <!--<td  align="center" valign="middle"><img src="{{FourthSelectedImage}}" width="350" height="150" alt="" /></td>
+                                                <td  align="center" valign="middle"><img src="{{FifthSelectedImage}}" width="350" height="150" alt="" /></td>
+                                                <td  align="center" valign="middle"><img src="{{SixthSelectedImage}}" width="350" height="150" alt="" /></td>-->
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td><h2 style="font-size:15px; color:#48484A"><strong>Comment</strong></h2></td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size:14px; color:#48484A; line-height:24px">{{Comment}}</td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                </tr>
+                            <!--</table>-->
+                        </div>
+
+                        <!-- End middle section-->
+                    </td>
+                </tr>
+
+                <tr style="background: #fff;">
+                    <td>&nbsp;</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <!--footer-->
+                        <div class="footer">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color:#ffffff;">
+
+                                <tr>
+                                    <td bgcolor="#D3F7FB" width="65%">
+                                        <table width="95%" border="0" cellspacing="0" cellpadding="15" align="center">
+                                            <tr>
+                                                <td width="50%">
+                                                    <div style="font-size:12px; color:#48484A; padding-bottom:5px;">Lab Address</div>
+                                                    <div style="font-size:12px; font-weight:bold; line-height:22px; color:#48484A">{{LabAddress}}</div>
+                                                </td>
+                                                <td width="50%">
+                                                    <div style="font-size:12px; color:#48484A; padding-bottom:5px;">Phone Number</div>
+                                                    <div style="font-size:12px; font-weight:bold; line-height:22px; color:#48484A">{{LabPhoneNumber}}</div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="35%" align="center" style="background-color:#ffffff; margin-bottom:20px;">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                            <tr align="center">
+                                                <td style="font-size:10px;"><strong>Powered by</strong></td>
+                                            </tr>
+                                            <tr align="center">
+                                                <td><img src= "{{PathforceLogo}}" alt="" width="200" height="45" /></td>
+                                            </tr>
+                                        </table>
+
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </div>
+                        <!--footer-->
+                    </td>
+                </tr>
+
+            </table>
+
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
