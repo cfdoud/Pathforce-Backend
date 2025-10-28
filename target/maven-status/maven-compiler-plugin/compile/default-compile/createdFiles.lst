@@ -2,6 +2,7 @@ com\pathdx\model\BarCodeComment.class
 com\pathdx\controller\ReportsController.class
 com\pathdx\repository\BaseRepoService.class
 com\pathdx\dto\requestDto\UserLoginRequestDto.class
+com\pathdx\config\JpaReposConfig.class
 com\pathdx\service\StainsService.class
 com\pathdx\repository\reposervice\OrderMessageRepoService$1.class
 com\pathdx\dto\requestDto\UserNotificationSubscriptionDto.class
@@ -11,6 +12,7 @@ com\pathdx\constant\Constants.class
 com\pathdx\service\UserNotificationService.class
 com\pathdx\model\SlideStainsModel.class
 com\pathdx\repository\reposervice\SlideDetailRepoService.class
+com\pathdx\orthanc\OrthancConfig.class
 com\pathdx\security\LoggedInUserDetail$LoggedInUserDetailBuilder.class
 com\pathdx\model\AuditLogModel$AuditLogModelBuilder.class
 com\pathdx\model\CaseImageAudit$CaseImageAuditBuilder.class
@@ -26,6 +28,7 @@ com\pathdx\model\StateModel.class
 com\pathdx\config\WebSecurityConfig.class
 com\pathdx\service\impl\DashboardServiceImpl.class
 com\pathdx\service\impl\UserNotificationServiceImpl.class
+com\pathdx\config\DemoNoJpaScanConfig.class
 com\pathdx\security\CustomUserDetails.class
 com\pathdx\repository\UserNotificationSubscriptionRepository.class
 com\pathdx\dto\requestDto\EmailModelDto.class
@@ -38,6 +41,7 @@ com\pathdx\dto\responseDto\SVSDataResponseDTO.class
 com\pathdx\model\BaseModel_.class
 com\pathdx\dto\responseDto\ReportResponseDto.class
 com\pathdx\model\Patients_.class
+com\pathdx\orthanc\OrthancService.class
 com\pathdx\model\Role$RoleBuilder.class
 com\pathdx\constant\ErrorConstants.class
 com\pathdx\constant\AuditLogSort.class
@@ -52,6 +56,7 @@ com\pathdx\controller\OrderMessagesController.class
 com\pathdx\model\LabDetail.class
 com\pathdx\model\UserNotificationModel_.class
 com\pathdx\service\DashboardService.class
+com\pathdx\orthanc\OrthancController.class
 com\pathdx\dto\responseDto\MasterResponseDto.class
 com\pathdx\repository\CaseDetailsRepository.class
 com\pathdx\controller\AuditLogController.class
@@ -82,6 +87,7 @@ com\pathdx\dto\responseDto\StainsDto.class
 com\pathdx\model\StainPanelModel_.class
 com\pathdx\repository\SlideDetailRepository.class
 com\pathdx\model\DesignationModel$DesignationModelBuilder.class
+com\pathdx\config\JpaRepoConfig.class
 com\pathdx\service\impl\UserServiceImpl.class
 com\pathdx\dto\requestDto\StateReqDto.class
 com\pathdx\model\Physicians.class
@@ -117,6 +123,8 @@ com\pathdx\model\OrderMessages$OrderMessagesBuilder.class
 com\pathdx\model\Patients.class
 com\pathdx\model\Physicians_.class
 com\pathdx\service\impl\StainsServiceImpl.class
+com\pathdx\service\impl\DemoActivityLogService.class
+com\pathdx\config\CorsConfig.class
 com\pathdx\exception\ConversionFailedException.class
 com\pathdx\repository\reposervice\AuditLogRepoService.class
 com\pathdx\model\ActionModel$ActionModelBuilder.class
@@ -161,6 +169,7 @@ com\pathdx\utils\AuditLogUtil.class
 com\pathdx\repository\AuditLogsRepository.class
 com\pathdx\dto\responseDto\LabResponseDto.class
 com\pathdx\service\impl\ActivityLogServiceImpl.class
+com\pathdx\service\impl\LocalCaseServiceImpl.class
 com\pathdx\dto\responseDto\DesignationResponseDto.class
 com\pathdx\repository\ObservationsRepository.class
 com\pathdx\service\impl\GoogleMapAPIServiceImpl.class
@@ -193,10 +202,12 @@ com\pathdx\model\UserSlideModel.class
 com\pathdx\model\OrderMessages_.class
 com\pathdx\dto\requestDto\UpdateUserModelDto.class
 com\pathdx\model\Observations.class
+com\pathdx\service\impl\LocalActivityLogService.class
 com\pathdx\model\CaseDetails$CaseDetailsBuilder.class
 com\pathdx\controller\UsersController.class
 com\pathdx\service\LabDetailService.class
 com\pathdx\dto\requestDto\UserLabDto.class
+com\pathdx\orthanc\OrthancProps.class
 com\pathdx\service\impl\UserNotificationSubscriptionServiceImpl.class
 com\pathdx\model\Privilege.class
 com\pathdx\dto\requestDto\UserModelReqDto.class
@@ -280,6 +291,7 @@ com\pathdx\service\LabHeadingService.class
 com\pathdx\controller\NotificationController.class
 com\pathdx\dto\responseDto\CaseImageResponseDto.class
 com\pathdx\exception\LabNotFoundException.class
+com\pathdx\service\impl\DemoAuditLogsService.class
 com\pathdx\utils\CaseStatus.class
 com\pathdx\controller\NotificationEventApplicableRoleController.class
 com\pathdx\model\CaseOrderModel_.class
@@ -293,6 +305,7 @@ com\pathdx\model\SlideStainPanelModel.class
 com\pathdx\model\LabHeadings_.class
 com\pathdx\model\Stains_.class
 com\pathdx\exception\UserNotInLabException.class
+com\pathdx\security\LocalSecurityConfig.class
 com\pathdx\dto\requestDto\AnnotatedImageReqDto.class
 com\pathdx\dto\responseDto\StainsPanelDto.class
 com\pathdx\dto\responseDto\UserLoginResponseDto.class

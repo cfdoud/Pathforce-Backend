@@ -15,6 +15,7 @@ C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\dto\requestDto\UserNotificationSubscriptionDto.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\service\impl\StainsServiceImpl.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\constant\UtilConstants.java
+C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\config\JpaRepoConfig.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\model\SlideStainsModel.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\pdfGenerate\ReportHeadings.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\utils\NotificationUtil.java
@@ -23,6 +24,7 @@ C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\service\CaseAllocationService.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\dto\requestDto\CaseToUserDto.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\dto\responseDto\DesignationResponseDto.java
+C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\service\impl\DemoActivityLogService.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\repository\BaseRepoService.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\service\impl\OrderMessageServiceImpl.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\controller\MasterController.java
@@ -60,6 +62,7 @@ C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\dto\responseDto\LabResponseDto.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\service\DashboardService.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\repository\AuditLogsRepository.java
+C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\service\JpaReposConfig.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\dto\responseDto\CaseListingDto.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\dto\responseDto\YearWiseCaseCount.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\exception\UriSyntaxException.java
@@ -116,6 +119,7 @@ C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\service\impl\LabDetailServiceImpl.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\model\LabDetail.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\dto\responseDto\RefreshTokenResponseDto.java
+C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\config\CorsConfig.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\dto\responseDto\UserModelResponseDto.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\exception\PathdxExceptionController.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\config\WebSecurityConfig.java
@@ -145,8 +149,10 @@ C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\repository\PrivilegeRepository.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\repository\reposervice\UsersRepoService.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\dto\responseDto\AuditLogDto.java
+C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\orthanc\OrthancService.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\service\AuditLogsService.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\dto\requestDto\UserNotificationDto.java
+C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\service\impl\DemoAuditLogsService.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\service\impl\NotificationEventApplicableServiceImp.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\service\ReportPdfService.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\repository\RoleRepository.java
@@ -159,6 +165,7 @@ C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\dto\responseDto\AuditLogRespDto.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\model\LabHeadings.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\service\CaseService.java
+C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\orthanc\OrthancController.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\dto\responseDto\SlideDetailsDto.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\repository\PhysiciansRepository.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\config\WebConfig.java
@@ -192,7 +199,9 @@ C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\dto\adsync\Value.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\model\Physicians.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\constant\UrlConstants.java
+C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\config\DemoNoJpaScanConfig.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\service\ActivityLogService.java
+C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\service\impl\LocalCaseServiceImpl.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\model\OrderMessages.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\utils\ActivityLogFactory.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\repository\ActionRepository.java
@@ -201,6 +210,7 @@ C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\controller\OrderMessagesController.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\model\CaseComments.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\service\impl\NotificationServiceImpl.java
+C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\security\LocalSecurityConfig.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\repository\UsersRepository.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\dto\requestDto\UserLabDto.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\utils\CommonUtil.java
@@ -214,7 +224,9 @@ C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\dto\responseDto\LabHeadingsResponseDto.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\dto\requestDto\UserLoginRequestDto.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\dto\responseDto\OrderMessageDto.java
+C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\orthanc\OrthancConfig.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\repository\reposervice\SlideDetailRepoService.java
+C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\service\impl\LocalActivityLogService.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\utils\PasswordUtil.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\model\NotificationEventsApplicableRoleModel.java
 C:\Users\proud\Documents\UCI\MohitVR\webXR\PathForceDXBackEnd\src\main\java\com\pathdx\dto\responseDto\PatientsDto.java

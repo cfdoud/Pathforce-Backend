@@ -5,6 +5,7 @@ import com.pathdx.model.UserModel;
 import com.pathdx.repository.UsersRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Profile;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -19,6 +20,8 @@ import java.util.Optional;
 
 @Service
 @Slf4j
+@Profile("!local")
+
 public class CustomUserDetails implements UserDetailsService {
 
 

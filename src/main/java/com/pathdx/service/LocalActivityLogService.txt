@@ -1,0 +1,18 @@
+package com.pathdx.service.impl;
+
+import com.pathdx.dto.requestDto.ActivityLogDto;
+import com.pathdx.dto.responseDto.ResponseDto;
+import com.pathdx.service.ActivityLogService;
+import org.springframework.context.annotation.Profile;
+import org.springframework.stereotype.Service;
+
+@Profile("local")
+@Service
+public class LocalActivityLogService implements ActivityLogService {
+
+    @Override
+    public ResponseDto getActivityLog(ActivityLogDto activityLogDTO) {
+        // Local no-DB stub: return a safe default
+        return null; // or construct a minimal ResponseDto if you prefer
+    }
+}
