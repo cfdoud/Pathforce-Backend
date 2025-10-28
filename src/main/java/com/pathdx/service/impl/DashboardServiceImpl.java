@@ -14,6 +14,7 @@ import com.pathdx.utils.*;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Profile;
 import org.springframework.data.domain.*;
 import org.springframework.stereotype.Component;
 
@@ -26,6 +27,7 @@ import static com.pathdx.constant.CommonConstants.*;
 import static org.apache.commons.lang3.StringUtils.SPACE;
 
 @Component
+@Profile("!demo")
 @Slf4j
 public class DashboardServiceImpl implements DashboardService {
     @Autowired
